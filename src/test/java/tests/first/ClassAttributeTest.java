@@ -1,7 +1,8 @@
-package tests;
+package tests.first;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import tests.BaseTest;
 
 import static com.codeborne.selenide.Selenide.*;
 

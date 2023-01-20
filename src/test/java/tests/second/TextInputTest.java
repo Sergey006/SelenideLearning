@@ -1,8 +1,9 @@
-package tests;
+package tests.second;
 
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import tests.BaseTest;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
@@ -13,7 +14,7 @@ public class TextInputTest extends BaseTest {
     private static final String url = "textinput";
 
     @Test
-    public void clientDelayTest() {
+    public void textInputTest() {
         open(url);
         String typedText = "change";
         $(By.id("newButtonName")).val(typedText);

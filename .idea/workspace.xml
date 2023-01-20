@@ -4,25 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eb35ea8-8a89-46f2-b10b-31314eefd2aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sergey/Props.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AjaxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ClassAttributeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ClickTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ClientDelayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DynamicIDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/HiddenLayersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LoadDelayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TextInputTest.java" afterDir="false" />
+    <list default="true" id="7eb35ea8-8a89-46f2-b10b-31314eefd2aa" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/third/DynamicTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/third/ProgressBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/third/ScrollbarsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/third/VerifyTextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AjaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/second/AjaxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ClassAttributeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/first/ClassAttributeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ClickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/second/ClickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ClientDelayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/second/ClientDelayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DynamicIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/first/DynamicIDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HiddenLayersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/first/HiddenLayersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoadDelayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/first/LoadDelayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TextInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/second/TextInputTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,65 +72,65 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.tests in SelenideLearning">
-    <configuration name="AjaxTest.ajaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProgressBar.progressBarTest">
+    <configuration name="DynamicTableTest.clientDelayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenideLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AjaxTest" />
-      <option name="METHOD_NAME" value="ajaxTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClickTest.clientDelayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SelenideLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ClickTest" />
+      <option name="PACKAGE_NAME" value="tests.third" />
+      <option name="MAIN_CLASS_NAME" value="tests.third.DynamicTableTest" />
       <option name="METHOD_NAME" value="clientDelayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientDelayTest.clientDelayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProgressBar.progressBarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenideLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.third.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ClientDelayTest" />
+      <option name="PACKAGE_NAME" value="tests.third" />
+      <option name="MAIN_CLASS_NAME" value="tests.third.ProgressBar" />
+      <option name="METHOD_NAME" value="progressBarTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrollbarsTest.clientDelayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SelenideLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.first.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.third" />
+      <option name="MAIN_CLASS_NAME" value="tests.third.ScrollbarsTest" />
       <option name="METHOD_NAME" value="clientDelayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextInputTest.clientDelayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyTextTest.clientDelayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenideLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.third.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TextInputTest" />
+      <option name="PACKAGE_NAME" value="tests.third" />
+      <option name="MAIN_CLASS_NAME" value="tests.third.VerifyTextTest" />
       <option name="METHOD_NAME" value="clientDelayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -150,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProgressBar.progressBarTest" />
+        <item itemvalue="JUnit.VerifyTextTest.clientDelayTest" />
+        <item itemvalue="JUnit.DynamicTableTest.clientDelayTest" />
+        <item itemvalue="JUnit.ScrollbarsTest.clientDelayTest" />
         <item itemvalue="JUnit.tests in SelenideLearning" />
-        <item itemvalue="JUnit.TextInputTest.clientDelayTest" />
-        <item itemvalue="JUnit.ClickTest.clientDelayTest" />
-        <item itemvalue="JUnit.ClientDelayTest.clientDelayTest" />
-        <item itemvalue="JUnit.AjaxTest.ajaxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,30 +164,47 @@
       <option name="presentableId" value="Default" />
       <updated>1671917965670</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1673814448609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673814448609</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ClassAttributeTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/tests/first/ClassAttributeTest.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ClassAttributeTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/tests/first/ClassAttributeTest.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/HiddenLayersTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/tests/first/HiddenLayersTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ClickTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/tests/second/ClickTest.java</url>
           <line>16</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/third/ProgressBar.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
